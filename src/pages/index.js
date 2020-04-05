@@ -8,8 +8,8 @@ import axios from 'axios';
 
 
 const LOCATION = {
-    lat: 0,
-    lng: 0
+    lat: 36.2048,
+    lng: 138.2529
 };
 const CENTER = [LOCATION.lat, LOCATION.lng];
 const DEFAULT_ZOOM = 3;
