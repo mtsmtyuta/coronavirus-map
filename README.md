@@ -43,3 +43,4 @@ yarn develop
 ```
 * You should now be running a new Gatsby site locally! 🎉
 # coronavirus-map
+Inspired by an article by Colby Fayock https://www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/
