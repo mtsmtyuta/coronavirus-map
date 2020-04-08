@@ -57,9 +57,9 @@ const IndexPage = () => {
                     }
                 }
             })
-        }
+        };
 
-        console.log(geoJson);
+        // console.log(allJson);
         const geoJsonLayers = new L.GeoJSON(geoJson, {
             pointToLayer: (feature = {}, latlng) => {
             const { properties = {} } = feature;
@@ -97,8 +97,8 @@ const IndexPage = () => {
                     <li><strong>確認数:</strong>${cases}</li>
                     <li><strong>死亡数:</strong>${deaths}</li>
                     <li><strong>回復数:</strong>${recovered}</li>
-                    <li><strong>今日の確認数:</strong>${todayCases}( ${upCaseToday}% )</li>
-                    <li><strong>今日の死亡数:</strong>${todayDeaths}( ${upDeathToday}% )</li>
+                    <li><strong>今日の確認数:</strong>${todayCases}( 前日比:${upCaseToday}% )</li>
+                    <li><strong>今日の死亡数:</strong>${todayDeaths}( 前日比:${upDeathToday}% )</li>
                     <li><strong>更新日:</strong>${updatedFormatted}</li>
                   </ul>
                 </span>
