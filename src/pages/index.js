@@ -101,7 +101,7 @@ const IndexPage = () => {
                     <li><strong>今日の確認数:</strong>${todayCases}( 前日比:${upCaseToday}% )</li>
                     <li><strong>今日の死亡数:</strong>${todayDeaths}( 前日比:${upDeathToday}% )</li>
                     <li><strong>更新日:</strong>${updatedFormatted}</li>
-                    <li><strong>現在の症例数</strong>${activeCase}</li>
+                    <li><strong>アクティブケース:</strong>${activeCase}</li>
                   </ul>
                 </span>
                 ${ casesString }
